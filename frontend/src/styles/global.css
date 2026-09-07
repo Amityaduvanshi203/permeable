@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+.form-error {
+  margin-top: 12px;
+  color: #dc2626;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  background: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-x: hidden;
+}

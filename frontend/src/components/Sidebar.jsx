@@ -1,14 +1,17 @@
 import { NavLink } from "react-router-dom";
+import pavementImage from "../assets/pav.jpeg";
 
 function Sidebar() {
   return (
     <aside className="sidebar">
 
       <div className="logo">
-        <div className="logo-icon">💧</div>
+        <div className="logo-icon">
+          <img src={pavementImage} alt="SmartPave logo" />
+        </div>
 
         <div>
-          <h2>PaveMonitor</h2>
+          <h2>SmartPave</h2>
           <p>IoT Monitoring System</p>
         </div>
       </div>
